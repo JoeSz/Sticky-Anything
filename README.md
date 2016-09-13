@@ -1,14 +1,17 @@
 STICKY ANYTHING - JQUERY PLUGIN
 ============================================
 
-- Author: Mark Senff
-- Version: 1.1.3
+- Author: Mark Senff and Joe Szalai
+- Version: 1.1.3f1
 - Plugin URL: https://github.com/senff/Sticky-Anything
 - Author URL: http://www.senff.com
 - License: GNU General Public License v2 or later
 - License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-
+THIS VERSION (MY FORK)
+----------------------
+- Fire event only on scroll or resize (not with setInterval),
+- Debug removed from minified version
 
 DESCRIPTION
 -----------
