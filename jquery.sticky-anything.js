@@ -34,8 +34,8 @@
       // Create a clone of the menu, right next to original (in the DOM).
       $(this).addClass('original').clone().insertAfter(this).addClass('cloned').css('position','fixed').css('top',settings.top+'px').css('margin-top','0').css('margin-left','0').css('z-index',settings.zindex).removeClass('original').hide();
       //checkElement = setInterval(function(){stickIt(settings.top,settings.minscreenwidth,settings.maxscreenwidth)},10);
-      // Fire event only on scroll or resize
-      $(window).bind("scroll resize", function() {stickIt(settings.top,settings.minscreenwidth,settings.maxscreenwidth)});
+      // Fire event only on load, scroll or resize
+      $(window).bind("load scroll resize", function() {stickIt(settings.top,settings.minscreenwidth,settings.maxscreenwidth)});
     }
 
     return this;
