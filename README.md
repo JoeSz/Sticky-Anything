@@ -10,7 +10,7 @@ STICKY ANYTHING - JQUERY PLUGIN
 
 THIS VERSION (MY FORK)
 ----------------------
-- Fire event only on scroll or resize (not with setInterval),
+- Fire event only on load, scroll or resize (not with setInterval),
 - Debug removed from minified version,
 - Files renamed as jquery.sticky-anything.js and jquery.sticky-anything.min.js
 
@@ -129,7 +129,7 @@ NOTES AND RESTRICTIONS AND BUGS AND STUFF
 CHANGELOG
 ---------
 = 1.1.3f1 =
-* Fire event only on scroll or resize (not with setInterval)
+* Fire event only on load, scroll or resize (not with setInterval)
 * Debug removed from minified version
 * Files renamed as jquery.sticky-anything.js and jquery.sticky-anything.min.js
 
